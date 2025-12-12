@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAIBHAV BHATNAGAR - Information Technology Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>VAIBHAV BHATNAGAR</h1>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="skills.html" >Skills</a></li> 
+                <li><a href="contact.html">Contact</a></li> 
+                <li><a href="#" id="signInLink">Sign in</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+
+    <main class="hero">
+        <section>
+            
+            <img class = "image" src="1760714148972.jpg" alt="">
+           
+            <h2>INFORMATION TECHNOLOGY</h2>
+            <p>I specialize in ensuring system security and secure application development. Let's make the digital and tech world.</p>
+            <a href="projects.html" class="cta-button">View My Work</a>
+        </section>
+    </main>
+    <div id="signinOverlay" class="overlay hidden"></div>
+
+    <div id="signinModal" class="signin-modal hidden">
+        <div class="signin-header">
+            <h2>Sign in</h2>
+            <button id="closeSignin" class="close-btn">X</button>
+        </div>
+
+        <form id="signinForm">
+            <label for="signinEmail">Email</label>
+            <input type="email" id="signinEmail" placeholder="you@example.com">
+
+            <label for="signinPassword">Password</label>
+            <input type="password" id="signinPassword" placeholder="Enter password">
+
+            <p id="signinError" class="error-message"></p>
+            <p id="signinSuccess" class="success-message"></p>
+
+            <button type="submit" class="signin-submit">Sign in</button>
+        </form>
+    </div>
+
+    <footer>
+        
+        <p>&copy; 2025 VAIBHAV BHATNAGAR Portfolio</p>
+    </footer>
+    <script src="login.js"></script>
+</body>
+</html>
